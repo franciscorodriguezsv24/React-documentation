@@ -1,0 +1,20 @@
+.useEffectMainContainer{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.useEffectTitle{
+    font-family: "inter", sans-serif;
+    text-align: start;
+    margin: 0px;
+}
+
+.useEffectP{
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    width: 75%;
+}
+
+.codeInside{
+    padding: 20px;
+}
