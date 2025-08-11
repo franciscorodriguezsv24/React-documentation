@@ -1,0 +1,16 @@
+.useFormStatus_container{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.useFormStatus_title{
+    font-family: "inter", sans-serif;
+    text-align: start;
+    margin: 0px;
+}
+
+.useFormStatus_p{
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    width: 75%;
+}

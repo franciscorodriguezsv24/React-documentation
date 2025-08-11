@@ -46,6 +46,30 @@ function Layout() {
     {
       url:'/useSyncExternalStore',
       name: 'useSyncExternalStore'
+    },
+    {
+      url: '/use',
+      name: 'use'
+    },
+    {
+      url: '/useTransition',
+      name: 'useTransition'
+    },
+    {
+      url: '/useOptimistic',
+      name: 'useOptimistic'
+    },
+    {
+      url: '/useFormStatus',
+      name: 'useFormStatus'
+    },
+    {
+      url: '/useDeferedValue',
+      name: 'useDeferedValue'
+    },
+    {
+      url: '/useMemo',
+      name: 'useMemo'
     }
 
   ]

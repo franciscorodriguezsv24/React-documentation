@@ -5,14 +5,20 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import Layout from './layout.tsx'
 import { UseEffect } from './page/useEffect'
 import { UseRef } from './page/useRef'
-import { UseState } from './page/useState.tsx'
+import { UseState } from './page/useState/index.tsx'
 import { UseId } from './page/useId'
-import { UseReducer } from './page/useReducer.tsx'
-import { UseCallback } from './page/useCallback.tsx'
-import { UseContext } from './page/useContext.tsx'
-import { UseLayoutEffect } from './page/useLayoutEffect.tsx'
-import { UseImperativeHandle } from './page/useImperativeHandle.tsx'
-import { UseSyncExternalStore } from './page/useSyncExternalStore.tsx'
+import { UseReducer } from './page/useReducer/index.tsx'
+import { UseCallback } from './page/useCallback/index.tsx'
+import { UseContext } from './page/useContext/index.tsx'
+import { UseLayoutEffect } from './page/useLayoutEffect/index.tsx'
+import { UseImperativeHandle } from './page/useImperativeHandle/index.tsx'
+import { UseSyncExternalStore } from './page/useSyncExternalStore/index.tsx'
+import { Use } from './page/use/index.tsx'
+import { UseTransition } from './page/useTransition/index.tsx'
+import { UseOptimistic } from './page/useOptimistic/index.tsx'
+import { UseFormStatus } from './page/useFormStatus/index.tsx'
+import { UseDeferedValue } from './page/useDeferedValue/index.tsx'
+import { UseMemo } from './page/useMemo/index.tsx'
 
 
 const router = createBrowserRouter([
@@ -60,6 +66,30 @@ const router = createBrowserRouter([
             path: 'useSyncExternalStore',
             element: <UseSyncExternalStore />,
           },
+          {
+            path: 'use',
+            element: <Use/>
+          },
+          {
+            path: 'useTransition',
+            element: <UseTransition/>
+          },
+          {
+            path: 'useOptimistic',
+            element: <UseOptimistic/>
+          },
+          {
+            path: 'useFormStatus',
+            element: <UseFormStatus/>
+          },
+          {
+            path: 'useDeferedValue',
+            element: <UseDeferedValue/>
+          },
+          {
+            path: 'useMemo',
+            element: <UseMemo/>
+          }
         ],
       },
     ]);
