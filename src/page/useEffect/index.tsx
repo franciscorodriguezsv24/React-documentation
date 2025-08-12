@@ -1,4 +1,3 @@
-import React from 'react'
 import './useEffect.css'
 import { CodeContainer } from '../../components/codeContainer'
 
