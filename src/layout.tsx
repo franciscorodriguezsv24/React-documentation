@@ -8,7 +8,7 @@ function Layout() {
 
   const data = [
     {
-      url: '/',
+      url: '/useEffect',
       name: 'useEffect'
     },
     {

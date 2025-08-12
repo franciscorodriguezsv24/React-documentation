@@ -1,13 +1,12 @@
-import React from 'react'
 import { CodeContainer } from '../../components/codeContainer'
-
+import './useLayoutEffect.css'
 export const UseLayoutEffect = () => {
   return (
-              <div className='useReducer_container'>
-                <h1 className='useReducer_title'>
+              <div className='useLayoutEffect_container'>
+                <h1 className='useLayoutEffect_title'>
                   useLayoutEffect
                 </h1>
-                <p className='useReducer_p'>
+                <p className='useLayoutEffect_p'>
                   Es un hook de react que trabaja similar a useEffect, pero con una diferencia, este se activa sincronicamente despues de todas las mutaciones del DOM perooo antes de que el buscador vuelva a pintar, esto se vuelve util cuando necesites leer el disenio o aplicar los cambios visuales en el DOM antes de que el buscador pinte la pantalla (o renderice la pagina)
                 </p>
       

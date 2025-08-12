@@ -19,6 +19,8 @@ import { UseOptimistic } from './page/useOptimistic/index.tsx'
 import { UseFormStatus } from './page/useFormStatus/index.tsx'
 import { UseDeferedValue } from './page/useDeferedValue/index.tsx'
 import { UseMemo } from './page/useMemo/index.tsx'
+import { Home } from './page/home/index.tsx'
+import { NotFound } from './page/notFound/index.tsx'
 
 
 const router = createBrowserRouter([
@@ -28,7 +30,11 @@ const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <UseEffect />,
+            element: <Home />,
+          },
+          {
+            path: 'useEffect',
+            element: <UseEffect/>
           },
           {
             path: 'useRef',
@@ -89,6 +95,10 @@ const router = createBrowserRouter([
           {
             path: 'useMemo',
             element: <UseMemo/>
+          },
+          {
+            path: '*',
+            element: <NotFound/>
           }
         ],
       },

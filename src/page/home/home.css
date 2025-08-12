@@ -1,0 +1,16 @@
+.useHook_container{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.useHook_title{
+    font-family: "inter", sans-serif;
+    text-align: start;
+    margin: 0px;
+}
+
+.useHook_p{
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    width: 75%;
+}

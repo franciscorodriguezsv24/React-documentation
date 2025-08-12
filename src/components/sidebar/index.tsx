@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link, useLocation } from 'react-router'
 import './sidebar.css'
 
 type SidebarContent = {
@@ -7,6 +7,9 @@ type SidebarContent = {
     name: string,
 }
 export const Sidebar = ({ nav }: { nav: SidebarContent[] }) => {
+  const location = useLocation();
+  const currentPath = location.pathname
+
   return (
     <div>
       <h2>
@@ -16,7 +19,7 @@ export const Sidebar = ({ nav }: { nav: SidebarContent[] }) => {
         {
           nav.map((item, index) => {
             return (
-                <Link to={item.url ? item.url : "#"} className='linkTo' key={index}>
+                <Link to={item.url ? item.url : "#"} className={` ${currentPath === item.url ? 'selectedLinkTo' : 'linkTo'} `} key={index}>
                     {item.name ? item.name: "hopping"}
                 </Link>
             )
