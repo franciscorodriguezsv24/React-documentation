@@ -1,0 +1,17 @@
+.useImperativeHandle_container{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.useImperativeHandle_title{
+    font-family: "inter", sans-serif;
+    text-align: start;
+    margin: 0px;
+}
+
+.useImperativeHandle_p{
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    width: 75%;
+}

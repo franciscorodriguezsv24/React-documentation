@@ -1,0 +1,16 @@
+.useCallback_Container{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.useCallback_title{
+    font-family: "inter", sans-serif;
+    text-align: start;
+    margin: 0px;
+}
+
+.useCallback_p{
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    width: 75%;
+}

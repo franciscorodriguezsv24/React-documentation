@@ -1,0 +1,36 @@
+h2{
+    font-family: "inter", sans-serif;
+    color: white;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.linkTo{
+    text-align:start;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: rgb(92, 197, 226);
+    width: 100%;
+    padding: 5px;
+}
+
+.linkTo:hover{
+    background-color: rgb(92, 197, 226);
+    color: white;
+    transition: 0.2s;
+}
+
+.selectedLinkTo{
+    background-color: rgb(92, 197, 226);
+    color: white;
+    transition: 0.2s;
+        text-align:start;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 5px;
+}

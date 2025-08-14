@@ -1,0 +1,28 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+#root {
+  width: 100%;
+  text-align: center;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.sidebarContent {
+  width: 20%;
+  background-color: rgb(23, 33, 41);
+  height: 100vh;
+}
+
+.contentContainer {
+  width: 80%;
+  background-color: rgb(252, 249, 228);
+  height: 100vh;
+  overflow-y: scroll;
+}

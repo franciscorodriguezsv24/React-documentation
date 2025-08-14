@@ -1,0 +1,30 @@
+.useRefMainContainer{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.useRefTitle{
+    font-family: "inter", sans-serif;
+    text-align: start;
+    margin: 0px;
+}
+
+.useRefP{
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    width: 75%;
+}
+
+.useRefExample{
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    width: 75%;
+}
+
+.codeInside{
+    padding: 20px;
+}
+
+.useRefExampleContainer{
+    text-align: start;
+}
