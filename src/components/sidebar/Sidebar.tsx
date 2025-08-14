@@ -4,6 +4,7 @@ import './sidebar.css'
 type SidebarContent = {
     url: string,
     name: string,
+    id: number
 }
 export const Sidebar = ({ nav }: { nav: SidebarContent[] }) => {
   const location = useLocation();
@@ -16,9 +17,9 @@ export const Sidebar = ({ nav }: { nav: SidebarContent[] }) => {
       </h2>
       <div className='navContainer'>
         {
-          nav.map((item, index) => {
+          nav.map((item) => {
             return (
-                <Link to={item.url ? item.url : "#"} className={` ${currentPath === item.url ? 'selectedLinkTo' : 'linkTo'} `} key={index}>
+                <Link to={item.url ?? "#"} className={` ${currentPath === item.url ? 'selectedLinkTo' : 'linkTo'} `} key={item.id}>
                     {item.name ? item.name: "hopping"}
                 </Link>
             )
